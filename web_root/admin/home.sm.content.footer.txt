@@ -1,0 +1,12 @@
+<!-- Begin SM Links custom content -->
+<script>
+    // Insert Parent Notification option.
+    $j(function () {
+        var smAppLink = $j('#left_nav_applications').find('a:contains("SchoolMessenger")').attr('href');
+        studentFunctions.splice(20, 0, {
+            address: "/admin/messagesender/msgsndr.html",
+            name: "Parent Notification"
+        });
+    });
+</script>
+<!-- End SM Links custom content -->

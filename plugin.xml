@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://plugin.powerschool.pearson.com"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation='http://plugin.powerschool.pearson.com plugin.xsd'
+		name="SM Links"
+		version="1.0"
+		description="Insert links to the SM Broadcaster page in more places.">
+
+	<publisher name="Iron County School District Data Team">
+		<contact email="data@ironmail.org" />
+	</publisher>
+
+</plugin>
