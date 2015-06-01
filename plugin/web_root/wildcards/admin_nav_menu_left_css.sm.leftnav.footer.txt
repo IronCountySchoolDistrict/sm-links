@@ -4,4 +4,4 @@
     </li>
 </script>
 
-<script src="/scripts/sm-links/sm-links.js"></script>
+<script src="<!-- @echo IMAGE_SERVER_URL -->/scripts/sm-links/main.js"></script>

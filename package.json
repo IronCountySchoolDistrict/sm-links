@@ -1,0 +1,19 @@
+{
+  "name": "sm-links",
+  "version": "1.0.0",
+  "description": "Insert links to the SM Broadcaster page in more places.",
+  "main": "",
+  "scripts": {
+    "test": "mocha-casperjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IronCountySchoolDistrict/sm-links.git"
+  },
+  "author": "IronCountySchoolDistrict",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/IronCountySchoolDistrict/sm-links/issues"
+  },
+  "homepage": "https://github.com/IronCountySchoolDistrict/sm-links#readme"
+}
