@@ -4,7 +4,7 @@
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation='http://plugin.powerschool.pearson.com plugin.xsd'
 		name="SM Links"
-		version="1.0"
+		version="1.0.0"
 		description="Insert links to the SM Broadcaster page in more places.">
 
 	<publisher name="Iron County School District Data Team">
