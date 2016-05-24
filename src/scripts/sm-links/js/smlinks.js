@@ -15,6 +15,25 @@
       })
     }
 
+    if($('select[name="page"]').length){
+      var option = $('<option value="/admin/messagesender/msgsndr.html">Parent Notification</option>');
+      var index = 19;
+      option.insertBefore('select[name="page"] option:nth-child(' + index + ')');
+    }
 
+    if($('h1:contains(Special Functions)').length){
+      var table = $('table tbody');
+      var insertSelector = table.find('tr td:contains(Interfaces to other systems)');
+      fetch('/scripts/sm-links/html/sm_links.html')
+        .then(response => response.text())
+        .then(body => {
+          body.insertAfter(insertSelector);
+          //Fix row colors
+          $('tr.oddRow').removeClass('oddRow');
+          $('tr:odd').addClass('oddRow');
+        })
+
+
+    }
   });
 })($j);
