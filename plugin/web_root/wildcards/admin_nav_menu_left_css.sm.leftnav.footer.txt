@@ -1,7 +1,1 @@
-<script type="text/template" id="sm-links-template">
-    <li>
-        <a href="" target="_blank">Parent Notification</a>
-    </li>
-</script>
-
-<script src="/scripts/sm-links/js/main.js"></script>
+<script src="/scripts/sm-links/js/smlinks.js"></script>
