@@ -1,1 +1,11 @@
-<script src="/scripts/sm-links/js/smlinks.js"></script>
+<script>
+  require.config({
+    paths: {
+      smLinks: '/scripts/sm-links/js/smlinks'
+    }
+  });
+
+  require(['smLinks'], function(smLinks) {
+    smLinks.default();
+  });
+</script>
